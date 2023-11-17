@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>My first web page</title>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <p>Hello HTML</p>
+        <a href="#bottom">Go to bottom</a>
+        <h2 style="background-color: blue;color:white;">Heading 2</h2>
+        <p>There is a <strong>lot</strong> of <em>people</em> at school</p>
+        <h3>Heading 3</h3>
+        <!--unordered list-->
+        <ul>
+            <!--list item-->
+            <li id="other">
+                Madrid
+            </li>
+            <li>
+                Santiago de Compostela
+            </li>
+            <li id="special">
+                Vigo
+            </li>
+            <li>
+                Fuengirola
+            </li>
+        </ul>
+        <!--ordered list-->
+        <ol>
+            <li class="city">Albacete</li>
+            <li>Murcia</li>
+            <li>Teruel</li>
+            
+        </ol>
+        <form action="process.php" method="get"> 
+            <p> HACER FORMULARIO(en el for se pone el ID)</p>
+            <label for="name">Name</label> 
+            <input type="text" name="name" id="name" placeholder="Name">
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd">
+            <input type="submit" value="Submit">
+        </form>
+        <form action="submit.php" method="post">
+            <fieldset>
+                <legend>Favourite colour</legend>
+                <input type="radio" name="colour" id="red" value="red">
+                <label for="red">Red</label>
+                <input type="radio" name="colour" id="blue" value="blue">
+                <label for="blue">Blue</label>
+                <input type="radio" name="colour" id="green" value="green">
+                <label for="green">Green</label>
+                
+            </fieldset>
+            <fieldset>
+                <legend style="background-color: brown;color:antiquewhite;">Communication ways</legend>
+                <input type="checkbox" name="email" id="email">
+                <label for="email">Email</label>
+                <input type="checkbox" name="mail" id="mail">
+                <label for="mail">Mail</label>
+                <input type="checkbox" name="phone" id="phone">
+                <label for="phone">Phone</label>
+            </fieldset>
+            <hr>
+            <h2>Nacionality</h2>
+            <label for="nacionality">Select nacionality</label>
+            <select name="nacionality" id="nacionality">
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="brittish">Brittish</option>
+                <option value="canadian">Canadian</option>
+            </select>
+            <br>
+            <label for="comment">Write your comment</label>
+            <textarea name="comment" id="comment" cols="50" rows="5"></textarea>
+            <input type="submit" value="submit">
+        </form>
+        <img src="./img/elxokas.jpg" alt="elXokas" width="200">
+        <h4 class="city">Heading 4</h4>
+        <h6>Heading 6</h6>
+        <img src="https://aprendelibvrefiles.blob.core.windows.net/aprendelibvre-container/course/creacion_de_sitios_web/image/imgscursoweb-01_xl.png" alt="URL imaxe" width="600">
+        <p>It is the mechanism used by browsers to retrieve any published resource on the web. URL stands for Uniform Resource Locator. 
+            A URL is nothing more than the address of a given unique resource on the Web. In theory, each valid URL points to a unique resource.</p>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL" target="_blank">URL</a>
+        <!--<div></div>
+        <span></span>
+        <center></center>
+        <b></b>
+        <i></i>
+        no se usan-->
+        <a href="./test.html">Web Test</a>
+        <a name="#bottom">Bottom</a>
+        <p>It is the mechanism used by browsers to retrieve any published resource on the web. URL stands for Uniform Resource Locator. 
+            A URL is nothing more than the address of a given unique resource on the Web. In theory, each valid URL points to a unique resource.</p>
+        
+
+        
+    </body>
+</html>

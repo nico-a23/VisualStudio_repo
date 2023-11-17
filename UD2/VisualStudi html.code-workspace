@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../VisualStudi html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "VisualStudi html"
+	}
+}

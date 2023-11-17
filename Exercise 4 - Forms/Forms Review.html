@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="shortcut icon" href="./img/favicon5.ico" type="image/x-icon">
+</head>
+<header>
+    <hr>
+    <img src="./img/favicon5.ico" alt="img" width="80">
+    <hr>
+</header>
+<h1>Create a burguer!</h1>
+<form action="review.php">
+    <label for="protein">What type of protein would you like?</label> 
+    <input type="text" name="protein" id="protein">
+    <hr>
+    <label for="patties">How many patties would you like?</label> 
+    <input type="number" name="patties" id="patties" min="0" max="10">
+    <hr>
+    <label for="cooked">How do you want apatty cooked</label>
+    <p><a>Rare</a><input type="range" name="cooked" id="cooked" min="1" max="5" value="3" ><a>Well-Done</a></p>
+    <hr>
+    <legend>What toppings would you like?</legend>
+    <input type="checkbox" name="lettuce" id="lettuce">
+    <label for="lettuce">Lettuce</label>
+    <input type="checkbox" name="tomato" id="tomato">
+    <label for="tomato">Tomato</label>
+    <input type="checkbox" name="onion" id="onion">
+    <label for="onion">Onion</label>
+    <hr>
+    <legend>Would you like to add cheese?</legend>
+    <input type="radio" id="yes" name="add"  value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="add"  value="no">
+    <label for="no">No</label>
+    <hr>
+    <label for="bun">What type of bun would you like?</label>
+            <select name="bun" id="bun">
+                <option value="sesame">Sesame</option>
+                <option value="potato">Potato</option>
+                <option value="pretzel">Pretzel</option>
+            </select>
+    <hr>
+    <label for="sauce" >What type of sauce would you like?</label>
+            <datalist id="sauce">
+                <option value="Sauce">Ketchup</option>
+                <option value="Sauce">Mayo</option>
+                <option value="Sauce">Mustard</option>
+            </datalist>
+            <input type="text" name="sauce" id="sauce" list="sauce">
+    <hr>
+    <label for="add">Anything else you want to add?</label>
+    <p><textarea name="add" id="add" cols="40" rows="3"></textarea></p>
+    <hr>
+    <input type="submit" value="Submit">
+</form>
+</html>

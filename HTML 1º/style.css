@@ -1,0 +1,21 @@
+h1{
+    background-color: burlywood;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5em;
+}
+p{
+    background-color: #42C9B3;
+    padding: 1em;
+}
+#special{
+    background-color: #F5861F;
+    color:white;
+}
+#other{
+    background-color: #F56120;
+    color: white;
+}
+.city{
+    background-color: #F5169C;
+}
