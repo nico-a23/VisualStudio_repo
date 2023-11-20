@@ -21,16 +21,34 @@
             border-style: double;
             border-radius: 8px;
         }
+        .container{
+            position: relative;
+            display: inline-block;
+        }
         body{
             display: flex;
             justify-content: center;
         }
-    </style>
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: beige;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .contact-button:hover {
+            background-color: cornflowerblue;
+        }
+    </style> 
 </head>
 <header>
     <h1>Nico Rdguez Fz</h1>
 </header>
 <body>
-    <img src="./img/kid9.png" alt="kid9" width="200">
+    <div class="container">
+        <img src="./img/kid9.png" alt="Image" width="200">
+        <a href="#" class="contact-button">CONTACT</a>
+      </div>
 </body>
 </html>
