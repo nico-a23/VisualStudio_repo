@@ -1,0 +1,90 @@
+<base_datos>
+    <sales id="1">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="2">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="3">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="4">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="5">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="6">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="7">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="8">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="9">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <sales id="10">
+        <purchase_number></purchase_number>
+        <data_of_purchase></data_of_purchase>
+        <customer_id></customer_id>
+        <item_code></item_code>
+    </sales>
+    <customers>
+        <customer_id>1</customer_id>
+        <first_name>Jonh</fisrt_name>
+        <last_name>McKinley</last_name>
+        <email_address></email_address>
+        <number_of_complaints></number_of_complaints>
+    </customers>
+    <customers>
+    <last_name>McFarlane</last_name>
+    <first_name>Elizabeth</fisrt_name>
+    <customer_id>2</customer_id>
+    <email_address></email_address>
+    <number_of_complaints></number_of_complaints>
+    </customers>
+    <customers>
+        <last_name>Lawrence</last_name>
+        <first_name>Kevin</fisrt_name>
+        <customer_id>3</customer_id>
+        <email_address></email_address>
+        <number_of_complaints></number_of_complaints>
+    </customers>
+    <customers>
+        <last_name>Winnfield</last_name>
+        <first_name>Catherine</fisrt_name>
+        <customer_id>4</customer_id>
+        <email_address></email_address>
+        <number_of_complaints></number_of_complaints>
+    </customers>
+</base_datos>
