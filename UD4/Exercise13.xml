@@ -13,9 +13,9 @@
     <!ELEMENT image (#PCDATA)>
     <!ELEMENT newchapters (chapter,description)>
 
-    <!ENTITY % multipleAuthors "author+">
-    <!ENTITY % optionalImg "image?">
-    <!ENTITY % optionalNewChapter "newchapters?">
+    <!ENTITY % multipleAuthors SYSTEM "author+">
+    <!ENTITY % optionalImg SYSTEM "image?">
+    <!ENTITY % optionalNewChapter SYSTEM "newchapters?">
     
 ]>
 <bookDatabase>
