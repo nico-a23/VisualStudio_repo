@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+
+<!DOCTYPE parent [
+    <!ELEMENT parent (son+, daughter+)>
+    <!ELEMENT son (#PCDATA)>
+    <!ELEMENT daughter (info?)>
+    <!ELEMENT info (#PCDATA|happy)*>
+    <!ELEMENT happy EMPTY>
+]>
+<parent>
+    <son>Ricardo</son>
+    <son>Richi</son>
+    <daughter>
+        <info>
+            She likes chess<happy/>
+        </info>
+    </daughter>
+    <daughter></daughter>
+    <daughter></daughter>
+</parent>

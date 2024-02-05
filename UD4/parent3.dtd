@@ -1,0 +1,4 @@
+<!ELEMENT parent (son+,daughter+)>
+<!ELEMENT son (#PCDATA)>
+<!ATTLIST son age NMTOKEN #IMPLIED> <!-- Implied = opcional / fixed "25"=atributo tiene un valor fijo /-->
+<!ELEMENT daughter (#PCDATA)>

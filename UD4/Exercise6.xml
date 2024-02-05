@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)> 
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+
+<booklist>
+    <book>
+        <bookname>Harry Popotter</bookname>
+        <author>Gotti</author>
+        <author>Ana Rosa</author>
+        <price>4</price>
+        <homepage>Siu</homepage>
+    </book>
+    <book>
+        <bookname>Gormiti</bookname>
+        <author>Digref</author>
+        <homepage>Azul</homepage>
+    </book>
+</booklist>
