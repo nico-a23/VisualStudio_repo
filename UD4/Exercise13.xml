@@ -3,19 +3,20 @@
     <!ELEMENT bookDatabase (book+)>
     <!ELEMENT book (author+,content+,image?,newchapters?)>
     <!ATTLIST book book ID NMTOKEN #REQUIRED>
+    <!ENTITY % content SYSTEM "chapter, description"> <!-- para representar trozos de dtd-->
     <!ELEMENT author (#PCDATA)>
-    <!ELEMENT content (chapter,description)>
+    <!ELEMENT content (%content)>
     <!ELEMENT chapter (#PCDATA)>
     <!ATTLIST chapter number NMTOKEN #REQUIRED>
     <!ELEMENT description (section*,summary?)>
     <!ELEMENT section (#PCDATA)>
     <!ELEMENT summary (#PCDATA)>
     <!ELEMENT image (#PCDATA)>
-    <!ELEMENT newchapters (chapter,description)>
-
-    <!ENTITY % multipleAuthors SYSTEM "author+">
-    <!ENTITY % optionalImg SYSTEM "image?">
-    <!ENTITY % optionalNewChapter SYSTEM "newchapters?">
+    <!ELEMENT newchapters (%content)>
+    <!ENTITY Jay "Jay Mike">
+    <!ENTITY Oli "Oli Pop">
+    <!ENTITY Misho "Misho Pep">
+    
     
 ]>
 <bookDatabase>

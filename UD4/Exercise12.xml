@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE artists [
+    <!ELEMENT artists (artist+, album)>
+    <!ELEMENT artist EMPTY>
+    <!ATTLIST artist name CDATA #REQUIRED>
+    <!ATTLIST artist artistID ID #REQUIRED>
+    <!ELEMENT album EMPTY>
+    <!ATTLIST album name CDATA #REQUIRED>
+    <!ATTLIST album albumArtistID IDREF #IMPLIED>
+    <!ATTLIST album contributingArtistIDs IDREFS #IMPLIED>
+]>
+<artists>
+    <artist name="Drake" artistID="a1"/>
+    <artist name="Quevedo" artistID="a2"/>
+    <album name="DONDE QUIERO ESTAR" albumArtistID="a2" contributingArtistIDs="a2"/>
+</artists>

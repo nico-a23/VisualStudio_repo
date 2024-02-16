@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE order SYSTEM "tractors.dtd">
+<order>
+    <tractor>
+        <component fragile="yes" weight_unit="kilos">
+            <manufacturer>ABC Tractor Parts</manufacturer>
+            <delivery_date day="20" month="02" year="2024"/>
+            <weight>100</weight>
+            <serial_number>12345</serial_number>
+            <max_km>5000</max_km>
+        </component>
+        <component fragile="no" weight_unit="grams">
+            <manufacturer>XYZ Manufacturing</manufacturer>
+            <weight>5000</weight>
+            <serial_number>54321</serial_number>
+        </component>
+    </tractor>
+</order>

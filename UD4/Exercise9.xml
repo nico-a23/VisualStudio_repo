@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE games SYSTEM "Exercise9.dtd">
+<games>
+    <game>
+        <teams>
+            <team_home>
+                <team_name>Real Madrid</team_name>
+            </team_home>
+            <team_away>
+                <team_name>Barcelona</team_name>
+            </team_away>
+        </teams>
+        <goals>
+            <goal type="goal">
+                <player>Lionel Messi</player>
+                <time>15'</time>
+            </goal>
+            <goal type="penalty">
+                <player>Luis Suarez</player>
+                <time>30'</time>
+            </goal>
+            <goal type="goal">
+                <player>Karim Benzema</player>
+                <time>45+'</time>
+            </goal>
+        </goals>
+        <cards>
+            <card type="yellow">
+                <player>Sergio Ramos</player>
+            </card>
+            <card type="red">
+                <player>Gerard Piqué</player>
+            </card>
+        </cards>
+    </game>
+    <game>
+    </game>
+</games>

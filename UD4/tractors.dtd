@@ -1,0 +1,14 @@
+<!ELEMENT order (tractor+)>
+<!ELEMENT tractor (component+)>
+<!ELEMENT component (manufacturer, delivery_date?, fragile?, weight, serial_number, max_km?)>
+<!ATTLIST component fragile (yes|no) #REQUIRED>
+<!ATTLIST component weight_unit (kilos|grams) #REQUIRED>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT delivery_date EMPTY>
+<!ATTLIST delivery_date day CDATA #IMPLIED>
+<!ATTLIST delivery_date month CDATA #REQUIRED>    
+<!ATTLIST delivery_date year CDATA #REQUIRED>    
+<!ELEMENT fragile (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT serial_number (#PCDATA)>
+<!ELEMENT max_km (#PCDATA)>

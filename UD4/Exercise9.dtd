@@ -1,0 +1,14 @@
+<!ELEMENT games (game+)>
+<!ELEMENT game (teams, goals+, cards*)>
+<!ELEMENT teams (team_home, team_away)>
+<!ELEMENT team_home (team_name)>
+<!ELEMENT team_away (team_name)>
+<!ELEMENT team_name (#PCDATA)>
+<!ELEMENT goals (goal+)>
+<!ELEMENT goal (player, time)>
+<!ATTLIST goal type (goal|penalty) #REQUIRED>
+<!ELEMENT player (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT cards (card+)>
+<!ELEMENT card (player, type)>
+<!ATTLIST card type (yellow|red) #REQUIRED>
