@@ -1,0 +1,21 @@
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="shiporder.xsd" orderid="123456789">
+    <orderperson>John Doe</orderperson>
+    <shipto>
+        <name>Will Smith</name>
+        <address>Cave St</address>
+        <city>Gotham City</city>
+        <country>Spain</country>
+    </shipto>
+    <item>
+        <title>Wallet</title>
+        <note>The best wallet in the world</note>
+        <quantity>2</quantity>
+        <price>10.99</price>
+    </item>
+    <item>
+        <title>Sunglasses</title>
+        <quantity>100</quantity>
+        <price>199.99</price>
+    </item>
+</shiporder>
