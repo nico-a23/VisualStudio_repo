@@ -1,0 +1,34 @@
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Exercise19.xsd" orderDate="2024-02-23" >
+    <shipTo country="US">
+        <name>Nico</name>
+        <street>Rogue Street</street>
+        <city>Brooklyn</city>
+        <state>New York</state>
+        <zip>80120</zip>
+    </shipTo>
+    <billTo>
+        <name>Nico</name>
+        <street>Wall Street</street>
+        <city>Manhattan</city>
+        <state>New York</state>
+        <zip>85901</zip>
+    </billTo>
+    <comment>Commenting the comments</comment>
+    <items>
+        <item partNum="246-AC">
+            <productName>Jummy</productName>
+            <quantity>20</quantity>
+            <USPrice>10.99</USPrice>
+            <comment>Another comment</comment>
+            <shipDate>2024-02-20</shipDate>
+        </item>
+        <item partNum="135-AD">
+            <productName>Gope</productName>
+            <quantity>40</quantity>
+            <USPrice>19.99</USPrice>
+            <comment>Another comment 2</comment>
+            <shipDate>2024-02-20</shipDate>
+        </item>
+    </items>
+</purchaseOrder>
