@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="juicer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="image" type="xs:string" />
+                <xs:element name="description" type="xs:string" />
+                <xs:element name="warranty" minOccurs="0" type="xs:string" />
+                <xs:element name="weight" minOccurs="0" type="xs:integer" />
+                <xs:element name="cost" type="xs:double" />
+                <xs:element name="retailer" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="juicers" />
+</xs:schema>

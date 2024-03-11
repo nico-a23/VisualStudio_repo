@@ -1,0 +1,18 @@
+<juicer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Exercise22.xsd">
+        <name>asfsagasfg</name>
+        <image>agsagsagsag</image>
+        <description>gasgsagsag</description>
+        <warranty>gasagsagsagsag</warranty>
+        <weight>12</weight>
+        <cost>1</cost>
+        <retailer>gsgagsasgag</retailer>
+    </juicer>
+    <juicer>
+        <name>sggagsagasgas</name>
+        <image>gagagasgag</image>
+        <description>gasgasgasgg</description>
+        <cost>sgasgasgasg</cost>
+        <retailer>sgasgasgasga</retailer>
+    </juicer>
+</juicers>
