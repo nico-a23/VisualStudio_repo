@@ -1,0 +1,12 @@
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="juicers.xsd">
+    <juicer>
+        <name>Miau</name>
+        <image>miau.jpg</image>
+        <description>Cat miauwing</description>
+        <warranty>2 years</warranty>
+        <weight>10</weight>
+        <cost>170</cost>
+        <retailer>Miau SL</retailer>
+    </juicer>
+</juicers>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="juicers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="juicer" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" type="ImageFileType" />
+                            <xs:element name="description" type="xs:string" />
+                            <xs:element name="warranty" type="xs:string" minOccurs="0"/>
+                            <xs:element name="weight" type="xs:double" minOccurs="0"/>
+                            <xs:element name="cost" type="MoneyType" minOccurs="1"/>
+                            <xs:element name="retailer" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="MoneyType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ImageFileType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9_-]+\.(jpg|jpeg|png|gif)"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
