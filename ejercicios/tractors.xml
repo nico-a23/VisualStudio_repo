@@ -1,0 +1,31 @@
+<!DOCTYPE order SYSTEM "tractors.dtd">
+<order>
+    <tractor>
+        <component fragile="yes">
+            <manufactors_name>safasfas</manufactors_name>
+            <delivery_date day="12" month="10" year="2024"/>
+            <weight unit="kilos">
+                <serial_number>14243</serial_number>
+                <maximum_km>100</maximum_km>
+            </weight>
+            
+        </component>
+        <component fragile="no">
+            <manufactors_name>sdafasasd</manufactors_name>
+            <delivery_date day="12" month="10" year="2024"/>
+            <weight unit="kilos">
+                <serial_number>12323</serial_number>
+            </weight>
+        </component>
+    </tractor>
+    <tractor>
+        <component fragile="no">
+            <manufactors_name>sfasfasf</manufactors_name>
+            <delivery_date month="10" year="2024"/>
+            <weight unit="grams">
+                <serial_number>12423</serial_number>
+                <maximum_km>100</maximum_km>
+            </weight>
+        </component>
+    </tractor>
+</order>

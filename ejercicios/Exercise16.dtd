@@ -1,0 +1,17 @@
+<!ELEMENT student_list (student+)>
+<!ELEMENT student (name,study_programme,course?)>
+<!ATTLIST student matriculation_number NMTOKEN #REQUIRED>
+<!ELEMENT name (first_name,middle_name?,last_name)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT last_name (#PCDATA)>
+<!ELEMENT study_programme EMPTY>
+<!ATTLIST study_programme name CDATA #REQUIRED>
+<!ELEMENT course (title,mark_course,exam_mark)>
+<!ATTLIST course year NMTOKEN #REQUIRED>
+<!ATTLIST course type NMTOKEN #REQUIRED>
+<!ATTLIST course recieved_mark NMTOKEN #REQUIRED>
+<!ATTLIST course taken_exam NMTOKEN #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT mark_course (#PCDATA)>
+<!ELEMENT exam_mark (#PCDATA)>

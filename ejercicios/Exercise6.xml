@@ -1,0 +1,24 @@
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)>
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+<booklist>
+    <book>
+        <bookname>skajdokasd</bookname>
+        <author>afsafasf</author>
+        <price>122</price>
+        <homepage>asfasfasfasd</homepage>
+    </book>
+    <book>
+        <bookname>safasfasf</bookname>
+        <bookname>fasfasfasfasf</bookname>
+        <bookname>sdgagfasfasfa</bookname>
+        <author>afdassaffa</author>
+        <author>fsfasfasfasf</author>
+        <homepage>safasfasfasf</homepage>
+    </book>
+</booklist>

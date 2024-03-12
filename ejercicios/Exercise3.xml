@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="email.dtd" type="application/xml-dtd"?>
+<message>
+    <from>ohmen@gmail.com</from>
+    <to>ohwoman@gmail.com</to>
+    <to>ohoma@gmail.com</to>
+    <subject>Hello</subject>
+    <body>asjdpasjdioajsfojsaiojasoifjasofkjaosjfoasjfoasjfkojasfkoja</body>
+    <attachment>hoho</attachment>
+</message>

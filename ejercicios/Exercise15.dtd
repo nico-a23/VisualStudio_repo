@@ -1,0 +1,14 @@
+<!ELEMENT suppliers (order+)>
+<!ELEMENT order (tractors+)>
+<!ELEMENT tractors (components+)>
+<!ELEMENT components (manufactors_name,delivery_date,weight)>
+<!ATTLIST components fragile NMTOKEN #REQUIRED>
+<!ELEMENT manufactors_name (#PCDATA)>
+<!ELEMENT delivery_date EMPTY>
+<!ATTLIST delivery_date day NMTOKEN #IMPLIED>
+<!ATTLIST delivery_date month NMTOKEN #REQUIRED>
+<!ATTLIST delivery_date year NMTOKEN #REQUIRED>
+<!ELEMENT weight (serial_number,maximum_km?)>
+<!ATTLIST weight unit NMTOKEN #REQUIRED>
+<!ELEMENT serial_number (#PCDATA)>
+<!ELEMENT maximum_km (#PCDATA)>

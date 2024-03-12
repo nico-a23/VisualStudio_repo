@@ -1,0 +1,16 @@
+<!DOCTYPE artists [
+    <!ELEMENT artists (artist+,album)>
+    <!ELEMENT artist EMPTY>
+    <!ATTLIST artist name CDATA #REQUIRED>
+    <!ATTLIST artist artistID ID #REQUIRED>
+    <!ELEMENT album EMPTY>
+    <!ATTLIST album name CDATA #REQUIRED>
+    <!ATTLIST album albumArtistID IDREF #IMPLIED>
+    <!ATTLIST album contributingArtistIDs IDREFS #IMPLIED>
+]>
+
+<artists>
+    <artist name="Nico Rguez Fiuza" artistID="A11" />
+    <artist name="El coquette" artistID="A12" />
+    <album name="Los Gotty" albumArtistID="A11" contributingArtistIDs="A11"/>
+</artists>

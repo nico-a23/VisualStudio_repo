@@ -1,0 +1,25 @@
+<!DOCTYPE student_list SYSTEM "Exercise16.dtd">
+<student_list>
+    <student matriculation_number="111">
+        <name>
+            <first_name>asdafsfa</first_name>
+            <middle_name>sfasfasfa</middle_name>
+            <last_name>fsafsafasf</last_name>
+        </name>
+        <study_programme name="BSc in CS and Engineering"/>
+        <course  year="2024" type="undergraduate" recieved_mark="yes" taken_exam="yes">
+            <title>safasfasf</title>
+            <mark_course>9</mark_course>
+            <exam_mark>10</exam_mark>
+        </course>
+            
+    </student>
+    <student matriculation_number="112">
+        <name>
+            <first_name>asfasgsf</first_name>
+            <last_name>asgagreaefsfas</last_name>
+        </name>
+        <study_programme name="BSc in Applied CS"/>
+        
+    </student>
+</student_list>

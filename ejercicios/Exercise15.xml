@@ -1,0 +1,43 @@
+<!DOCTYPE suppliers SYSTEM "Exercise15.dtd">
+<suppliers>
+    <order>
+        <tractors>
+            <components fragile="yes">
+                <manufactors_name>sdadasa</manufactors_name>
+                <delivery_date day="4" month="4" year="2024"/>
+                <weight unit="kilos">
+                    <serial_number>12214214</serial_number>
+                    <maximum_km>100</maximum_km>
+                </weight>
+            </components>
+        </tractors>
+    </order>
+    <order>
+        <tractors>
+            <components fragile="no">
+                <manufactors_name>safgsafsaaf</manufactors_name>
+                <delivery_date day="2" month="2" year="2024"/>
+                <weight unit="grams">
+                    <serial_number>12321414</serial_number>
+                    <maximum_km>200</maximum_km>
+                </weight>
+            </components>
+            <components fragile="no">
+                <manufactors_name>sfasfsagasf</manufactors_name>
+                <delivery_date month="8" year="2024"/>
+                <weight unit="grams">
+                    <serial_number>214421552142</serial_number>
+                </weight>
+            </components>
+        </tractors>
+        <tractors>
+            <components fragile="yes">
+                <manufactors_name>asfasagdadw</manufactors_name>
+                <delivery_date day="2" month="4" year="2024"/>
+                <weight unit="kilos">
+                    <serial_number>24151412234</serial_number>
+                </weight>
+            </components>
+        </tractors>
+    </order>
+</suppliers>

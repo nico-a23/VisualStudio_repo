@@ -1,0 +1,21 @@
+<shiporder orderid="A-112" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Exercise17.xsd">
+    <orderperson>dasdasffsa</orderperson>
+    <shipto>
+        <name>sdasfafsaf</name>
+        <address>sfassfafsa</address>
+        <city>sffasfasf</city>
+        <country>ssfasffs</country>
+    </shipto>
+    <item>
+        <title>fsfasfsafasf</title>
+        <note>sfsafasfasf</note>
+        <quantity>10</quantity>
+        <price>20.2</price>
+    </item>
+    <item>
+        <title>safasfaf</title>
+        <quantity>12</quantity>
+        <price>100.99</price>
+    </item>
+</shiporder>

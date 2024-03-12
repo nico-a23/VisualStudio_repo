@@ -1,0 +1,39 @@
+<!DOCTYPE games [
+    <!ELEMENT games (game+)>
+    <!ELEMENT game (team+)>
+    <!ELEMENT team (team_name,scored_player,penalized_player)>
+    <!ATTLIST team id NMTOKEN #IMPLIED>
+    <!ELEMENT team_name (#PCDATA)>
+    <!ELEMENT scored_player (#PCDATA)>
+    <!ATTLIST scored_player penalty NMTOKEN #REQUIRED>
+    <!ATTLIST scored_player time NMTOKEN #REQUIRED>
+    <!ELEMENT penalized_player (#PCDATA)>
+    <!ATTLIST penalized_player yellow_card NMTOKEN #REQUIRED>
+    <!ATTLIST penalized_player red_card NMTOKEN #REQUIRED>
+]>
+<games>
+    <game>
+        <team id="home">
+            <team_name>Depor</team_name>
+            <scored_player penalty="yes" time="34">OLA</scored_player>
+            <penalized_player yellow_card="yes" red_card="no">OLA</penalized_player>
+        </team>
+        <team>
+            <team_name>Celta</team_name>
+            <scored_player penalty="no" time="44">MIAU</scored_player>
+            <penalized_player yellow_card="no" red_card="no">MIAU</penalized_player>
+        </team>
+    </game>
+    <game>
+        <team id="home">
+            <team_name>Depor</team_name>
+            <scored_player penalty="yes" time="34">ALO</scored_player>
+            <penalized_player yellow_card="yes" red_card="no">ALO</penalized_player>
+        </team>
+        <team>
+            <team_name>Celta</team_name>
+            <scored_player penalty="no" time="44">GUAU</scored_player>
+            <penalized_player yellow_card="no" red_card="no">GUAU</penalized_player>
+        </team>
+    </game>
+</games>

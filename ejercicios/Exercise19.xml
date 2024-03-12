@@ -1,0 +1,27 @@
+<purchaseOrder orderDate="2024-04-24" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Exercise19.xsd">
+    <shipTo country="US">
+        <name>asfasfas</name>
+        <street>sfasfaf</street>
+        <city>fsafasfaf</city>
+        <state>gdasfads</state>
+        <zip>14332</zip>
+    </shipTo>
+    <billTo country="US">
+        <name>afssafasfasg</name>
+        <street>agsgfasfa</street>
+        <city>safasfags</city>
+        <state>agsafsafasf</state>
+        <zip>17442</zip>
+    </billTo>
+    <comment>afsasgsafasgaf</comment>
+    <items>
+        <item partNum="122-AS">
+            <productName>sdasfasf</productName>
+            <quantity>99</quantity>
+            <USPrice>12.2</USPrice>
+            <comment>adasfsaagsdf</comment>
+            <shipDate>2024-04-22</shipDate>
+        </item>
+    </items>
+</purchaseOrder>
